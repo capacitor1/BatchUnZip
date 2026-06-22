@@ -17,7 +17,7 @@ internal static class SevenZipExtractor
         if (RequiresPassword(archivePath))
         {
             Console.WriteLine(
-                "[7-zip] Password required. Input password:");
+                $"[7-zip] '{archivePath}':{Environment.NewLine}Password required. Input password:");
 
             password = Console.ReadLine() ?? string.Empty;
         }

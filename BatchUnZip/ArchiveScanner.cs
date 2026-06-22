@@ -13,7 +13,9 @@ internal static class ArchiveScanner
             ".zip",
             ".001",
             ".7z",
-            ".rar"
+            ".rar",
+            ".xz",
+            ".tar"
         };
 
     public static string[] ScanArchives(string rootDir)
